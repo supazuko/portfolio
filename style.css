@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: bottom;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Rubik",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #525252;
+    font-size: 16px;
+
+}
+.container {
+    /* display: block; */
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #f2f4ef;
+    width: 100vw;
+    height: 100vh;
+}
+.card {
+    display: inline-block;
+    background-color: white;
+    height: calc(100vh - 8vw);
+    width: calc(100vw - 8vw);
+    text-align: left;
+    position: relative;
+    animation-name: card;
+    
+}
+#photo {
+    height: 100%;
+    overflow: hidden;
+    width: 50%;
+    /* background-color: yellow; */
+    position: relative;
+    background-image: url(images/Z!\ resume\ image..jpeg);
+    background-size: cover;
+    background-position: center;
+    animation-name: photo;
+    
+}
+#top-menu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+.content-container {
+    display: block;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: calc(50vw - 2vw);
+    height: calc(100vh - 8vw);
+    padding: 30px;
+}
+h6 {
+    font-size: 50px;
+    font-weight: 100;
+    /* animation-name: slide_down; */
+    margin: 10px;
+}
+h5 {
+    color: #BDBFAE;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 25px;
+    /* animation-name: h5;
+    animation-duration: 3s; */
+    text-align: center;
+    margin: 10px;
+}
+.content p {
+    max-width: 500px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* animation-name: slide_down;
+    animation-duration: 1s; */
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /* line-height: 150px; */
+}
+.btn {
+    font-size: 15px;
+    line-height: 30px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 30px;
+    display: inline-block;
+    padding: 2px;
+    /* margin-left: 5px; */
+}
+.button-image {
+    position: relative;
+    padding-left: 40px;
+    padding-right: 14px;
+    /* animation-name: slide_up;
+    animation-duration: 0.5s;
+    animation-delay: 1.2s; */
+    margin: 10px;
+}
+a {
+    color: #BDBFAE;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* #menu .button {
+    padding: 0 16px;
+}
+#menu a {
+    padding: 10px 16px;
+    animation-name: slide_down;
+    animation-duration: 1s;
+    display: inline-block;
+} */
+
+@media (max-width: 750px){
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* #photo {
+        display: none;
+    }
+    .card {
+        display: block;
+    }
+    .card {
+        width: 100%;
+    } */
+}
