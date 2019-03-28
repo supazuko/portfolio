@@ -98,14 +98,14 @@ h5 {
     /* line-height: 150px; */
 }
 .btn {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 30px;
     border: 1px solid grey;
     border-radius: 20px;
     height: 30px;
     display: inline-block;
     padding: 2px;
-    /* margin-left: 5px; */
+    margin-left: auto;
 }
 .button-image {
     position: relative;
@@ -115,6 +115,10 @@ h5 {
     animation-duration: 0.5s;
     animation-delay: 1.2s; */
     margin: 10px;
+}
+.CV{
+    /* margin-top: 79px; */
+    font-size: 20px;
 }
 a {
     color: #BDBFAE;
